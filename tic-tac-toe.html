@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./tic-tac-toe.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="score">
+        <div class="score__item">
+          <p class="score__player player-1">Игрок X</p>
+          :
+          <p class="score__player score-1">0</p>
+        </div>
+        <div class="score__item">
+          <p class="score__player player-2">Игрок O</p>
+          :
+          <p class="score__player score-2">0</p>
+        </div>
+        <div class="score__item">
+          <p class="score__player draw">Ничья</p>
+          :
+          <p class="score__player score-draw">0</p>
+        </div>
+      </div>
+      <div class="field">
+        <div class="field__item" id="1"></div>
+        <div class="field__item" id="2"></div>
+        <div class="field__item" id="3"></div>
+        <div class="field__item" id="4"></div>
+        <div class="field__item" id="5"></div>
+        <div class="field__item" id="6"></div>
+        <div class="field__item" id="7"></div>
+        <div class="field__item" id="8"></div>
+        <div class="field__item" id="9"></div>
+      </div>
+      <div class="bottom hidden">
+        <button class="restart">Начать заново</button>
+      </div>
+    </div>
+    <script src="./tic-tac-toe.js"></script>
+  </body>
+</html>
